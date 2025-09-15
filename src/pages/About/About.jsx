@@ -1,5 +1,4 @@
 import HeroImg from "@/assets/images/hero.jpg";
-import OlovaLogo from "@/assets/images/olova.png";
 
 export default function About() {
   return (
@@ -24,17 +23,17 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm Nazmul Hossain, a passionate JavaScript developer
+                Hello! I&apos;m Mir Monoj Ali, a passionate Full Stack developer
                 specializing in creating innovative web solutions and
                 user-friendly interfaces.{" "}
                 <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
+                  As the creator of the
                 </span>
-                , I'm dedicated to simplifying development workflows.
+                , I&apos;m dedicated to simplifying development workflows.
               </p>
               <p className="text-white">
                 My focus is on making web development faster, easier, and
-                accessible to all developers. Currently, I'm expanding into
+                accessible to all developers. Currently, I&apos;m expanding into
                 backend development to grow as a full-stack developer and create
                 seamless, robust web applications.
               </p>
@@ -42,26 +41,26 @@ export default function About() {
               <div className="pt-6">
                 <blockquote className="border-l-4 border-gray-300 pl-4">
                   <p className="text-white">
-                    I'm a lifelong learner and innovator, driven by a desire to
+                    I&apos;m a lifelong learner and innovator, driven by a desire to
                     contribute to the developer community with new ideas and
                     tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
+                    I&apos;m pushing the boundaries of JavaScript frameworks to
                     empower developers worldwide.
                   </p>
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
-                      Nazmul Hossain, Creator of
+                      Mir Monoj Ali , Creator of
                     </cite>
                     <div className="flex items-center gap-2">
-                      <img
+                      {/* <img
                         className="h-5 w-fit"
                         src={OlovaLogo}
                         alt="Olova Logo"
                         height="20"
                         width="auto"
-                      />
-                      <span className="text-white">OlovaJS</span>
+                      /> */}
+                      {/* <span className="text-white">OlovaJS</span> */}
                     </div>
                   </div>
                 </blockquote>

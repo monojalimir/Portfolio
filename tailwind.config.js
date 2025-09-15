@@ -4,29 +4,47 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      // Custom animations
       animation: {
         meteor: "meteor 5s linear infinite",
+        "float-slow": "float-slow 7s ease-in-out infinite",
+        float: "float 6s ease-in-out infinite",
+        "gradient-shift": "gradient-shift 4s linear infinite",
+        blink: "blink 1s step-end infinite",
       },
       keyframes: {
         meteor: {
-          "0%": {
-            transform: "rotate(215deg) translateX(0)",
-            opacity: "1",
-          },
-          "70%": {
-            opacity: "1",
-          },
-          "100%": {
-            transform: "rotate(215deg) translateX(-500px)",
-            opacity: "0",
-          },
+          "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
+          "70%": { opacity: "1" },
+          "100%": { transform: "rotate(215deg) translateX(-500px)", opacity: "0" },
+        },
+        "float-slow": {
+          "0%, 100%": { transform: "translateY(0) rotate(1deg)" },
+          "50%": { transform: "translateY(-10px) rotate(-1deg)" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        "gradient-shift": {
+          "0%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+          "100%": { backgroundPosition: "0% 50%" },
+        },
+        blink: {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0" },
         },
       },
+
+      // Border radius
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+
+      // Theme colors (hooked to CSS variables)
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

@@ -1,11 +1,9 @@
-import React, { useState } from "react";
-import EducationLoader from "@/components/ui/EducationLoader";
+import  { useState } from "react";
+import "@/components/ui/EducationLoader";
 import {
-  Star,
   Award,
   Calendar,
   BookOpen,
-  GraduationCap,
   Trophy,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -15,24 +13,24 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "Higher Secondary School Certificate (HSC)",
+      school: "Ramnagar High School",
       mascot: "📘",
       year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
+      achievements: ["Secured: 76%", "Subject: Science"],
       skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
       description:
         "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "Bachelor of Technology (B.Tech)",
+      school: "Bharati Vidyapeeth College of Engineering",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2021-2025",
+      achievements: ["GPA: 7.5", "Subject: CSE"],
+      skills: ["Programming Languages", "Computer Networks", "Web Development", "Full Stack"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Developed strong analytical and critical thinking skills through comprehensive study of Computer Sciences and Engineering.",
     },
   ];
 
