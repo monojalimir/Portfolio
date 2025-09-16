@@ -4,16 +4,16 @@ import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
 const projects = [
-  // {
-  //   title: "Olova! A Lightweight JavaScript Library",
-  //   description:
-  //     "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-  //   src: "rock.jpg",
-  //   link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
-  //   color: "#5196fd",
-  //   githubLink: "https://github.com/olovajs/olova",
-  //   liveLink: "https://olova.js.org/",
-  // },
+  {
+    title: "Airbnb Hosting Platform",
+    description:
+      "A full-stack web application built with JavaScript, Node.js, Express.js, and MongoDB. Features include property hosting & management, user authentication & profiles, interactive maps with Mapbox, flash messages & alerts, and cloud integration for storage.",
+    src: "src/assets/images/olova-B0FjVVEL.png",
+    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    color: "#5196fd",
+    githubLink: "https://github.com/monojalimir/Airbnb-Project",
+    liveLink: "https://airbnb-project-kku8.onrender.com",
+  },
   // {
   //   title: "A sleek portfolio built with React and Tailwind CSS ",
   //   description:
@@ -107,7 +107,7 @@ export default function Projects() {
               <Card
                 key={`p_${i}`}
                 i={i}
-                url={project.link}
+                url={project.src}
                 title={project.title}
                 color={project.color}
                 description={project.description}

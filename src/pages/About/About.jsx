@@ -50,7 +50,7 @@ export default function About() {
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
-                      Mir Monoj Ali , Creator of
+                      Mir Monoj Ali
                     </cite>
                     <div className="flex items-center gap-2">
                       {/* <img
