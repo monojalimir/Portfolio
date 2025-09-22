@@ -12,7 +12,7 @@ const projects = [
     link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
     color: "#5196fd",
     githubLink: "https://github.com/monojalimir/Airbnb-Project",
-    liveLink: "https://airbnb-project-kku8.onrender.com",
+    liveLink: "https://airbnb-project-3uft.onrender.com",
   },
   // {
   //   title: "A sleek portfolio built with React and Tailwind CSS ",
